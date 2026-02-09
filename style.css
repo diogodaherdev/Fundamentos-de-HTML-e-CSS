@@ -92,3 +92,6 @@
     background-color: #0056b3;
 }
 
+#Card2 p span {
+    color: red; /* define a cor do texto para o span */
+}
