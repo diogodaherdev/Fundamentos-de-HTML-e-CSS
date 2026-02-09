@@ -9,7 +9,7 @@
     flex-wrap: wrap; /* permite que os itens quebrem para a próxima linha se necessário */
     gap: 20px; /* adiciona um espaço entre os itens */
     justify-content: space-between; /* distribui os itens com espaço entre eles */
-    padding: 15px; /* adiciona um pouco de espaçamento ao redor do container */
+    padding: 40px; /* adiciona um pouco de espaçamento ao redor do container */
     background-color: aquamarine; /* cor de fundo para visualização */
     
 }
@@ -95,3 +95,32 @@
 #Card2 p span {
     color: red; /* define a cor do texto para o span */
 }
+
+
+#Listas h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#Listas ul { /* estilo para listas não ordenadas */
+    list-style-type: square; /* define o estilo da lista como quadrado */
+    padding-left: 20px; /* adiciona um recuo à esquerda da lista */
+}
+
+#Listas ol { 
+    list-style-type: upper-roman; /* define o estilo da lista como números romanos maiúsculos */
+    padding-left: 20px; /* adiciona um recuo à esquerda da lista */
+}
+
+#Listas ul li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px; /* adiciona um espaço abaixo de cada item da lista */
+}
+
+#Listas ol li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px; /* adiciona um espaço abaixo de cada item da lista */
+}
+
